@@ -27,9 +27,9 @@ $(document).ready(function() {
 
   // Track current color to current time & convert RGB to Hex
   const getColor = function(hour, min, sec) {
-    let red = Math.round(255 * (hour/23)).toString(16);
-    let green = Math.round(255 * (min/59)).toString(16);
-    let blue = Math.round(255 * (sec/59)).toString(16);
+    let red = Math.round(255 * (hour/24)).toString(16);
+    let green = Math.round(255 * (min/60)).toString(16);
+    let blue = Math.round(255 * (sec/60)).toString(16);
 
     // Ensure RGB always has two digits
     red = (red.length < 2) ? '0' + red : red;

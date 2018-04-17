@@ -1,0 +1,40 @@
+a, a:link {
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a:hover {
+  color: #E8E8E8;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  color: white;
+  bottom: 0;
+}
+
+.footer {
+  position: relative;
+  margin-top: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: black;
+  left: 0;
+  bottom: 0;
+}
+
+h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+span {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 900%;
+}

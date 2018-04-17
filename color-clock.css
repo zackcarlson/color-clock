@@ -1,4 +1,4 @@
-a, a:link {
+a, a:link, a:focus {
   color: white;
   text-decoration: none;
   font-family: 'Montserrat Alternates', sans-serif;
